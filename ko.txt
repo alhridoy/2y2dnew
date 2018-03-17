@@ -1,0 +1,36 @@
+ <script>
+     
+     var arrLang = new Array();
+     arrLang['en']= new Array();
+     arrLang['ge']=new Array();
+
+     arrLang['en']['home']= 'Home';
+       arrLang['en']['about']= 'About Us';
+
+       arrLang['ge']['home']='1';
+       arrLang['ge']['about']='2';
+       $(document).ready(function(e){
+
+        $('.translate').click(function (){
+
+          var lang = $(this).attr('id');
+
+          $('.lang').each(function(index,element){
+
+            $(this).text(arrLang[lang][$(this).attr('key')]);
+          })
+        })
+       })
+
+   </script>
+
+<div class="language">
+  
+  <button id="en" class="translate">English</button>
+   <button id="ge" class="translate">German</button>
+    <ul>
+      <li class="lang" key="home">Home</li>
+       <li class="lang" key="about">About us</li>
+    </ul>
+    <p class="lang" key="desc">This is description</p>
+</div>

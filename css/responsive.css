@@ -1,0 +1,63 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+   
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .footer-widget h3{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.footer-widget ul li a {
+    font-size: 16px;
+    line-height: 22px;
+}
+.footer-widget ul li a {
+    font-size: 16px;
+    line-height: 22px;
+}
+.social-widget ul li a {
+    margin: 10px 0;
+}
+.nav-right {
+    display: block;
+    width: 100%;
+    clear: both;
+    padding-bottom: 20px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+
+}
+/*mobile-layout*/
+@media only screen and (max-width: 767px) { 
+ .nav li a, .navbar-default .navbar-nav > li > a {
+    padding: 10px 12px;
+}
+h3 {
+    font-size: 18px;
+}
+.btn.btn-primary {
+    padding: 8px 30px 10px;
+    font-size: 16px;
+}
+.footer-widget h3 {
+    margin-bottom: 20px;
+}
+.footer-widget ul li a {
+    font-size: 16px;
+    line-height: 22px;
+}
+.social-widget ul li a {
+    margin: 10px 0;
+}
+.footer-widget ul li a i {
+    font-size: 36px;
+}
+
+    
+}
